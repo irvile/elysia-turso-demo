@@ -12,8 +12,8 @@ bun install
 
 ```bash
 turso db create elysia-turso-demo
-turso db show elysia-turso-demo # URL value will be the TURSO_DATABASE_URL variable
-turso db tokens create elysia-turso-demo # token will be the TURSO_DATABASE_AUTH_TOKEN variable
+turso db show elysia-turso-demo # URL value will be the TURSO_DATABASE_URL variable. Update your .env file
+turso db tokens create elysia-turso-demo # token will be the TURSO_DATABASE_AUTH_TOKEN variable. Update your .env file
 ```
 
 ## Migrations
